@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF‑8">
+  <meta name="viewport" content="width=device‑width, initial‑scale=1.0">
+  <title>More Information</title>
+  <style>
+    .overlay-image {
+      position: relative;
+      width: 100%;
+      max-width: 2000px;
+      overflow: hidden;
+    }
+    .overlay-image img {
+      width: 100%;
+      height: 700px;
+      object-fit: cover;
+      opacity: 0.8;
+      filter: brightness(70%);
+       -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,1) 60%, rgba(0,0,0,0));
+  mask-image: linear-gradient(180deg, rgba(0,0,0,1) 60%, rgba(0,0,0,0));
+  
+    }
+
+     .overlay-image-two {
+      position: relative;
+      width: 100%;
+      max-width: 2000px;
+      overflow: hidden;
+    }
+    .overlay-image-two img {
+      width: 100%;
+      height: 725px;
+      object-fit: cover;
+
+          }
+    .overlay-text-two {
+      position: absolute;
+    
+      top: 20px;
+      left: 20px;
+      right: 20px;
+      padding-right: 60px;
+      padding-top: 30px;
+      font-size: 24px;
+      font-family: poppins;
+      text-align: left;
+      color: black;
+      z-index: 1;
+      text-align: center;
+      
+    }
+    .overlay-text-two p {
+     margin: 0.5em 0;
+    }
+    
+  
+    
+    .overlay-text {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      z-index: 1;
+      
+    }
+    .overlay-text h1 {
+      margin: 0.5em 0;
+    }
+
+    .bordered-box {
+  border: 2px solid #ffffff;
+  padding: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
+ 
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-container {
+  display: flex;
+  align-items: center; /* vertical centering */
+  gap: 100px;            /* space between image and text */
+}
+.flex-container img {
+  width: 380px;
+  height: auto;
+
+}
+
+.image-border {
+   display: inline-block;
+    box-sizing: border-box;
+  border: 5px dashed navy;
+   /* softens the corners */
+  padding: 20px;  
+  margin-left: 150px;
+           /* space between image and border */
+  /* optional background */
+}
+
+.my-line {
+  border: none;
+  border-top: 2px solid green;
+  margin: 40px 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ .button-in-front-two {
+            position: absolute; /*  Position the button freely */
+            top: 2825px; /* Adjust as needed to position the button */
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100; /* Bring the button to the front */
+            width: 30%;
+            height: 50px;
+            background-color: navy;
+            font-size:22px; 
+            font-family:Calisto MT; 
+            color: white;
+            }
+            button:hover {
+            opacity: 0.6;
+            }
+
+             
+
+        .container {
+            position: relative; /* Create a positioning context for the absolute button */
+        }
+
+  </style>
+   <script>
+        function myFunction() {
+            window.location.href = "Page3.html"; // 🔁 Change this to your actual target page
+        }
+    </script>
+</head>
+<body style="background-color: #03151a;">
+<div class="container">
+   <button onclick="myFunction()" class="button-in-front-two"><b>Infant CPR Trainer</b></button>
+
+
+</div>
+  <div class="overlay-image">
+    <img src="https://t3.ftcdn.net/jpg/02/84/51/00/360_F_284510053_9EA7vNLlgeZajPOMzaToA8gAOqgDWDtW.jpg" alt="Baby photo">
+    <div class="overlay-text">
+      <h1 style="font-size: 70px;">The Problem</h1>
+      <h1 style="font-size: 60px;">and its</h1>
+      <h1 style="font-size: 70px;">Victims</h1>
+  
+    </div>
+  </div>
+ 
+   <br> <br> <br> <br><br><br><br><br>
+    <div class="bordered-box">
+  <p style="font-size: 26px; color: white; line-height: 1.5;"><b>You're</b> washing up in the kitchen and are suddenly stricken with an agonizing curiosity: <i>Where's my child?"</i>
+  The world seems to collapse as you frantically stumble out to your back yard pool and stare at the water as if it were death
+itself, scanning for your kid, a tiny human being who, as of late, is too naive to differentiate between open air and a glass door.
+<br>
+<br>
+"Hi mom!" You gaze in disbelief as your mud-covered offspring runs from the dog house into your freshly mopped home. Relief washes over you, but others aren't so lucky. </p>
+</div>
+<br><br><br><br><br><br><br><br>
+<div class="flex-container">
+<div class="image-border">
+<img src="https://people.com/thmb/U2W4RYHUVe2UwzTdjO8xoIUJmlY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(668x0:670x2)/levi-4-1-2000-9acd7a86548e4c1cb42db3f9de38f876.jpg" 
+>
+</div>
+<div>
+<p style ="color:white; font-size: 28px; text-align: right; padding-right: 140px; line-height: 2.4;"> “It happened so quickly. I don’t know how Levi got away from us as we were cleaning up from dinner, or what lured him to go outside alone. I was the one who found him, face down, in the deep end. Just moments before this horrific discovery, I split a brownie with him. I still had the other half of the brownie in my mouth when I jumped into the pool to grab my son.” 
+ <br><br> <b>— Nicole Hughes,</b> A grieving Mother </p>
+</div>
+</div>  
+<br><br><br><br><br><br><br>
+<div class="overlay-image-two">
+  <img src="https://www.ledr.com/colours/white.jpg"> 
+ <div class="overlay-text-two">
+  
+  <hr class="my-line">
+
+<p style= "margin-left:50px; line-height:1.8;">&nbsp;&nbsp;&nbsp;&nbsp;Drowning is the second leading cause of death for children between the ages of 5 and 14, and it is the leading cause of death for children between the ages of 1 and 4. Tragic as it is, this issue is LARGELY preventable. Parents must realize that they are their child's sole protector. Water is a valuable resource that we need to survive, but it is also dangerous. You must always watch a child when they are near or around water, including the times when they are not even swimming, because one minute is all it takes for an infant to drown. 
+  <br>
+  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;That being said, we are only human and mistakes happen all the time. That is why it is of upmost importance for all child caregivers to be knowledgeble in infant CPR, a simple yet crucial skill that can keep someone alive despite all odds. 
+<br>
+<br>
+With the <b>"Infant CPR Trainer,"</b> I hope to make this a reality.
+</p>
+
+
+</div>      
+
+</div>  
+
+</body>
+</html>
